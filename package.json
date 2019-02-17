@@ -1,0 +1,44 @@
+{
+  "name": "my-electron-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.1",
+    "@material-ui/lab": "^3.0.0-alpha.17",
+    "autosuggest-highlight": "^3.1.1",
+    "axios": "^0.18.0",
+    "material-ui-search-bar": "^1.0.0-beta.13",
+    "react-autosuggest": "^9.4.3",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5"
+  },
+  "main": "./electron-starter.js",
+  "scripts": {
+    "start": "cross-env BROWSER=none nf start -p 3000",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-start": "node ./electron-wait-react",
+    "react-start": "react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "electron": "^4.0.1",
+    "electron-devtools-installer": "^2.2.4",
+    "foreman": "^3.0.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
