@@ -1,6 +1,6 @@
 This is the desktop version of my gieom challenge 
- ****electron + react
- ****
+ **electron + react**
+```
 Run
 $ yarn start
- ****
+```
